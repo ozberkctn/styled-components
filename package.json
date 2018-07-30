@@ -153,6 +153,9 @@
     "react": ">= 0.14.0 < 17.0.0-0"
   },
   "jest": {
+    "moduleNameMapper": {
+      "styled-components": "<rootDir>/node_modules/styled-components/dist/styled-components.native.cjs.js"
+    },
     "globals": {
       "__DEV__": true
     },
